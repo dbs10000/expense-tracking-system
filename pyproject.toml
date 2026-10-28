@@ -1,0 +1,17 @@
+[project]
+name = "expense-tracking-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dbs10000", email = "d.burnsidesmith@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+expense-tracking-system = "expense_tracking_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
