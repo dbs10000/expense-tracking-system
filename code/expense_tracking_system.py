@@ -136,9 +136,13 @@ add_expense(3.62, "food", "A chocolate bar from pret")
 # ---------------------------------
 # Variable to hold food total
 food_total = calculate_total_by_category("food")
+transport_total = calculate_total_by_category("transport")
 
 print("-" * 30)
-print(f"Total spent on food: £{food_total}")
+print("Category".upper())
+print("-" * 30)
+print(f"Food Total: £{food_total}")
+print(f"Transport Total: £{transport_total}")
 print("-" * 30)
 print()
 show_expenses()
