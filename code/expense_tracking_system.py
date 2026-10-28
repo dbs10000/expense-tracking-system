@@ -49,3 +49,9 @@ def add_expense(amount: int, category: str, description: str) -> dict:
 
     # Returns the expense dictionary
     return expense
+
+
+
+# ---------------------------------
+# Calculate Total Function
+# ---------------------------------
