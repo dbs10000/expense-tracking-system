@@ -15,14 +15,14 @@ expenses = []
 
 
 # ---------------------------------
-# Expense Function
+# Add Expense Function
 # ---------------------------------
-def add_expense(amount: int, category: str, description: str) -> dict:
+def add_expense(amount: float, category: str, description: str) -> dict:
     """
     Creates an expense and adds it to the list of expenses.
     
     Args:
-        amount (int): The price of the expense. Gets converted into a float.
+        amount (float): The price of the expense. Gets converted into a float.
         category (str): The category of the expense.
         description (str): A brief description of the expense.
 
@@ -57,12 +57,12 @@ def add_expense(amount: int, category: str, description: str) -> dict:
 # ---------------------------------
 # Calculate Total Function
 # ---------------------------------
-def calculate_total_expenses() -> int:
+def calculate_total_expenses() -> float:
     """
     Calculates the total amount of expenses
 
     Returns:
-        total (int): The total sum of expenses
+        total (float): The total sum of expenses
     """
 
     # Loops through the expenses dict and totals the amount.
@@ -78,7 +78,7 @@ def calculate_total_expenses() -> int:
 # ---------------------------------
 # Calculate Total By Category Function
 # ---------------------------------
-def calculate_total_by_category(category: str) -> int:
+def calculate_total_by_category(category: str) -> float:
     """
     Calculates the total amount of expenses based on a category.
 
@@ -86,7 +86,7 @@ def calculate_total_by_category(category: str) -> int:
         category (str): The expenses category.
     
     Returns:
-        category_total (int): The total amount within the category.
+        category_total (float): The total amount within the category.
     """
 
     # Loops through the expenses dict and filters out the selected category.
