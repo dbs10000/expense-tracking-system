@@ -1,4 +1,4 @@
-# ===============================
+# ===============================================================
 # EXPENSE TRACKER SYSTEM
 # ===============================
 # This is a newer attempt but from asking AI to give me a task.
@@ -20,6 +20,8 @@
 # I need to learn with / open, so I can begin writing and reading files too.
 # I am very happy with this. I know in 6 months from now I might cringe, but for now it works and I designed many functions.
 # I also incorporated try and except too.
+#
+# ===============================================================
 
 
 
