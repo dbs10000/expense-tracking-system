@@ -67,7 +67,6 @@ expenses = [
 # -------------------------------
 # Get Expense Functions
 # -------------------------------
-
 def get_expense_amount() -> float:
     """
     Asks the user to input the expense amount.
@@ -137,6 +136,7 @@ def get_expense() -> dict:
         "description" : expense_description
     }
     return expense
+
 # -------------------------------
 # Add Expense Function
 # -------------------------------
@@ -318,7 +318,6 @@ def menu_heading(copy: str) -> str:
     l = "-"*30
     the_heading = copy.strip().upper()
     return f"{the_heading}\n{l}"
-
 
 # -------------------------------
 # Get Answer Function
